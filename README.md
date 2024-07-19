@@ -5,10 +5,10 @@
 [![JSR Score](https://jsr.io/badges/@codr/<package>/score)](https://jsr.io/@codr/<package>)
 [![CodeQL](https://github.com/CodrJS/ts-jsr-template/actions/workflows/codeql.yml/badge.svg)](https://github.com/CodrJS/ts-jsr-template/actions/workflows/codeql.yml)
 
-
 ## Purpose
 
-Codr has the `@codr` namespace for the JavaScript Resistry (jsr). Modules published to JSR should by compatible for at least Node and Deno.
+Codr has the `@codr` namespace for the JavaScript Resistry (jsr). Modules
+published to JSR should by compatible for at least Node and Deno.
 
 ## Getting Started
 
@@ -23,6 +23,8 @@ git clone git@github.com:CodrJS/ts-jsr-template.git
 # Cache deno dependencies
 deno cache
 
-# Test the code
+# Lint, format, and test the code
+deno lint
+deno fmt
 deno test
 ```
