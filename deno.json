@@ -10,7 +10,9 @@
     "singleQuote": false
   },
   "publish": {
-    "include": ["LICENSE", "README.md", "src/**/*.ts"],
-    "exclude": [".github", "*.test.ts", ".gitignore"]
+    "exclude": [".github/*", "tests/*.test.ts", ".gitignore", "coverage/*"]
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.0"
   }
 }
